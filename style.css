@@ -500,6 +500,8 @@ Home Section
 .profile-img {
     border-radius: 50%;
     height: 18.9375rem;
+    width: 18.9375rem;
+
 }
 /* .home-img, */
 .home-text {
@@ -852,7 +854,6 @@ Contact Section
     margin: 6px 4px 0 0;
     transition: all 0.3s ease;
 }
-
 .contact-info-item .social-links a:hover {
     background: var(--bg);
 }
@@ -879,7 +880,6 @@ Contact Section
     .portfolio-item{
         width: calc(50% - 30px);
     }
-    
 }
 @media(max-width:767px){
     .about-img,
@@ -895,22 +895,18 @@ Contact Section
     .pp-inner{
         padding: 30px 15px;
     }
-  
-
 }
 @media(max-width:575px){
     .contact-form{
         width: 60%; 
     }
     .contact-info{
-        /* float: left;  */
         width: 40%;
         order: -1;
         margin-bottom: 15px;
     }
     .input-control{
         margin-top: 0;
-        
     }
     .contact-info-item{
         padding: 0;
@@ -927,7 +923,5 @@ Contact Section
     }
     .pp-header h3{
         font-size: 20px;
-
     }
-
 }
