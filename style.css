@@ -787,7 +787,7 @@ Contact Section
     background-color: red;
     float: right;
 } */
-
+/* 
 .contact-form,
 .contact-info{
     width: 50%;
@@ -856,7 +856,7 @@ Contact Section
 }
 .contact-info-item .social-links a:hover {
     background: var(--bg);
-}
+} */
 @media(max-width:991px){
     .container{
         padding: 0;
@@ -925,3 +925,5 @@ Contact Section
         font-size: 20px;
     }
 }
+
+
